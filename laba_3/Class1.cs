@@ -106,9 +106,6 @@ namespace laba_3
             int hash = (year / 100) * 100000 + gr * 1000 + size;
             return hash;
         }
-        public static void sizeinfo()
-        {
-            Console.WriteLine("Количество студентов: " + size);
-        }
+        public static void sizeinfo() => Console.WriteLine("Количество студентов: " + size);
     }
 }
